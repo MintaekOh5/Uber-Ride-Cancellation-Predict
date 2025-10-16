@@ -42,9 +42,8 @@ The dataset contains the following.
 
 ## Cross validation
 Cross-validation: Stratified K-fold (k = 7)
-Final model: LightGBM has better prediction
 
-## Prediction Example
+## Prediction Example using LGBM
 prediction_input = pd.DataFrame([{
     'Vehicle Type': 'Auto',
     'Pickup Location': 'Khandsa',
