@@ -39,6 +39,8 @@ The dataset contains the following.
 |:-------------------|:-------:|:----:|:----------:|
 | **Logistic Regression** | 0.0.87 | 0.30 | 0.74 |
 | **LightGBM** | 0.96 | 0.53 | 0.89 |
+
+## Cross validation
 Cross-validation: Stratified K-fold (k = 7)
 Final model: LightGBM has better prediction
 
