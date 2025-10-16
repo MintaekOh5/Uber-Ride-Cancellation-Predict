@@ -44,19 +44,19 @@ The dataset contains the following.
 Cross-validation: Stratified K-fold (k = 7)
 
 ## Prediction Example using LGBM
-prediction_input = pd.DataFrame([{
-    'Vehicle Type': 'Auto',
-    'Pickup Location': 'Khandsa',
-    'Drop Location': 'Vasant Kunj',
-    'Avg VTAT': 15.1,
-    'Avg CTAT': 25.8,
-    'Booking Value': 6662,
-    'Ride Distance': 17,
-    'Driver Ratings': 1.7, 
-    'Customer Rating': 4.2, 
-    'Payment Method': 'UPI', 
-    'Month': 8, 
-    'Hour': 18  
-}])
+
+'Vehicle Type': 'Auto',
+'Pickup Location': 'Khandsa',
+'Drop Location': 'Vasant Kunj',
+'Avg VTAT': 15.1,
+'Avg CTAT': 25.8,
+'Booking Value': 6662,
+'Ride Distance': 17,
+'Driver Ratings': 1.7, 
+'Customer Rating': 4.2, 
+'Payment Method': 'UPI', 
+'Month': 8, 
+'Hour': 18  
+
 
 This passenger will not cancel the ride with probability.
